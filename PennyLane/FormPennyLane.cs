@@ -48,7 +48,6 @@ namespace PennyLane
         {
             string sum = "";
             int amount;
-            int remaining = 0;
             string character;
 
             for (int i = 1; i < input.Length; i++)
@@ -57,6 +56,7 @@ namespace PennyLane
 
                 if (character != ".")
                 {
+                    //Convert all to pennies
                     sum += character;
                 }
             }
